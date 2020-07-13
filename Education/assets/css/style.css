@@ -1,0 +1,556 @@
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular.woff2);
+}
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url(../fonts/Poppins-Regular.woff2);
+}
+@font-face {
+	font-family: Poppins-Bold;
+	src: url(../fonts/Poppins-Bold.woff2);
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.woff2);
+}
+@font-face {
+	font-family: Poppins-SemiBold;
+	src: url(../fonts/Poppins-SemiBold.woff2);
+}
+
+
+* {
+	font-family: Roboto-Regular;
+}
+
+.container {
+	overflow:hidden;
+}
+
+h1, 
+.courses .card .card-body .belong .price span{
+	font-family: Poppins-Bold;
+	color: #171063;
+}
+
+h2, h5, h6{
+	font-family: Poppins-SemiBold;
+	color: #171063;
+}
+
+p {
+	color: #9B9B9B;
+	font-size: 14px;
+}
+
+a.btn ,
+button[type="submit"]{
+	border-radius: 30px;
+	background: rgb(27,218,254);
+	background: -webkit-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: -o-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: linear-gradient(to left, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	color: #fff;
+	border: 0;
+	outline: none;
+}
+
+
+section {
+	padding-top: 104px;
+	padding-bottom: 104px;
+	overflow:hidden;
+}
+
+
+.pre-title-wrapper hr{
+	width: 66px;
+	border-color: #4FACFE;
+}
+
+.pre-title{
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	color: #9B9B9B;
+}
+
+main section.hero-section .hero-content h1 {
+	font-size: 55px;
+}
+
+main section.hero-section .hero-content p{
+	margin-bottom: 60px;
+}
+
+.card-icon {
+
+}
+
+.card-icon .icon-wrraper {
+	width: 68px;
+	height: 68px;
+	background: #4FACFE
+}
+
+.features .card {
+	border-color: #4FACFE;
+}
+
+.features .card-deck .card {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.features .card-deck .card .card-body {
+	padding: 0
+}
+.features .card-deck .card .card-body p{
+	width: 75%;
+  	text-align:justify;
+  	margin: 0 auto;
+  	margin-bottom: 84px;
+}
+
+.features .card-deck .card .card-body p:after {/* this adds an extra invisible line, so any other line is justified */
+  content:'';
+  display:inline-block;
+  width:100%;
+  vertical-align:top;
+  }
+
+.features .card .h6 {
+	font-size: 20px!important;
+}
+
+.statistics{
+	background: rgb(27,218,254);
+	background: -webkit-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: -o-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: linear-gradient(to left, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+ }
+
+.statistics .stat-wrap{
+	color: #fff;
+}
+
+.statistics .stat-wrap hr {
+	border-color: #fff;
+	border-width: 2px;
+}
+
+.statistics .stat-wrap .stat-num {
+	font-size: 62px;
+}
+
+.statistics .stat-desc {
+	font-size: 25px;
+}
+
+.courses h2,
+.tesimonials h2,
+.student-blog h2{
+	margin-bottom: 100px;
+	font-size: 42px;
+}
+
+
+.courses .card .card-body,
+.student-blog .card .card-body {
+	border: 1px solid #4FACFE;
+	border-top-color: transparent; 
+}
+
+.courses .card .card-body .belong .cat,
+.student-blog .card .card-body .belong .cat { background: #4FACFE; }
+
+.courses .card .card-body .belong .cat h4,
+.student-blog .card .card-body .belong .cat h4{
+	color: #fff;
+	font-size: 14px;
+}
+
+.courses .card .card-body .belong .price span{
+	font-size: 18px;
+	color: #337AB7;
+}
+
+.courses .card .card-body h5,
+.student-blog .card .card-body h5 {
+	font-size: 20px;
+	color: #337AB7;
+}
+.courses .card .card-body .teacher-img {
+	width: 53px;
+	height: 53px;
+}
+
+.courses .card .card-body .teacher-info span {
+	font-size: 14px;
+	color: #9B9B9B;
+}
+
+.courses .card .card-body .rate ul li{
+	font-size: 12px;
+	color: #F8920F;
+}
+
+
+.courses a:hover,
+.student-blog a:hover{
+	text-decoration: none;
+	transition: all 500ms;
+}
+.cat:hover{
+	background: #337AB7!important;
+}
+.courses a:hover h5,
+.student-blog a:hover h5{
+	color: #4FACFE!important;
+	transition: all 500ms;
+}
+
+.courses .teacher-info a:hover h6{
+	color: #4FACFE!important;
+}
+
+.educator .educator-content h2{
+	font-size: 42px;
+}
+
+.educator .educator-feature a h5 {
+	font-size: 20px;
+	color: #337AB7;
+}
+
+
+.tesimonials .card-body{
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(200,224,245,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(200,224,245,1);
+	box-shadow: 0px 0px 15px 0px rgba(200,224,245,1);
+	padding-bottom: 100px;
+}
+
+
+.tesimonials .card-body blockquote{
+	color: #9B9B9B;
+	font-size: 14px;
+}
+
+.tesimonials .card-body h5{
+	color: #337AB7;
+	font-size: 22px;
+}
+
+.tesimonials .card-body .qoute {
+	position: absolute;
+	width: 95px;
+	height: 80px;
+	bottom: 50px;
+	right: 50px;
+}
+
+.tesimonials .owl-carousel .owl-dots {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.tesimonials .owl-carousel .owl-dots .owl-dot {
+	width: 11px;
+	height: 11px;
+	background: #9B9B9B;
+	margin-right: 10px;
+	border-radius: 50%;
+	outline: 0;
+}
+
+.tesimonials .owl-carousel .owl-dots .owl-dot.active {
+	background: #4FACFE;
+}
+
+@media (min-width: 1200px) {
+	.tesimonials .owl-carousel .owl-item {
+		width: 900px!important;
+	}
+}
+
+@media (max-width: 768px) {
+	.tesimonials .tesi-resp {
+		height: 250px;
+		object-fit: cover;
+	}
+}
+
+
+.student-blog .card .card-body h5 {
+	font-size: 14px;
+}
+
+footer h2 {
+	font-size: 24px;
+}
+
+.newsletter input{
+	outline: 0;
+}
+.newsletter button[type="submit"] {
+	border-radius: 0;
+	font-size: 20px;
+	font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media li a{
+	width: 20px;
+    height: 20px;
+    background: #9B9B9B;
+    color: #fff;
+    font-size: 75%;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.social-media li a:hover {
+	transition: all 0.5s ease;
+}
+.social-media li a.facebook:hover{
+	background: #3b5998;
+}
+.social-media li a.whatsapp:hover{
+	background: #25d366;
+}
+.social-media li a.twitter:hover{
+	background: #1da1f2;
+}
+.social-media li a.insta:hover{
+	background: #e1306c;
+}
+	
+
+
+
+.contact-us-list {
+	font-size: 14px;
+}
+.contact-us-list a{
+	color: #337AB7;
+}
+.copy-right {
+	border-top: 1px solid rgba(112, 112, 112, 0.2);
+}
+.copy-right p {
+	font-size: 16px;
+}
+
+
+/***header responsive***/
+.main-header{
+	overflow:hidden!important;
+}
+.navbar-toggler-custom {
+	border: 0;
+}
+.navbar-toggler-icon-custom {
+	transition: all 0.5s ease;
+}
+
+.main-header .navbar-toggler-icon-custom {
+	transform: rotateZ(-90deg);
+	transition: all 0.5s ease;
+}
+
+.navbar-nav {
+	margin-left: 200px;
+}
+
+@media (max-width: 992px) {
+
+	header {
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    background: #fff;
+	    left: 0;
+	    top: 0;
+	    z-index: 999;
+	    box-shadow: 0px 6px 5px 0px rgba(3,3,3,0.26);
+	}
+	section.hero-section {
+		margin-top: 88px;
+	}
+
+	.navbar-collapse-custom {
+		background: #fff;
+		position: fixed;
+		top: 88px;
+		left: -100%;
+		width: 50%;
+		height: 100%!important;
+		z-index: 9999;
+		transition: all 0.5s ease;
+	}
+	.overlay {
+	opacity: 0;
+	position: fixed;
+	top: 88px;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 888;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	}
+	.main-header .overlay {
+		opacity: 1;
+		visibility: visible;
+	}
+	.navbar-collapse-custom ul {
+		margin-left: 20px!important;
+	}
+	.main-header .navbar-collapse-custom{
+		left: 0;
+	}
+	.navbar-collapse.collapse {
+  		display: block!important;
+	}
+
+	.btn-quote {
+		width: 70%;
+	}
+
+}
+
+
+
+.navbar-nav .nav-link {
+	position: relative;
+}
+
+.navbar-nav .nav-link:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	left: 8px;
+	bottom: 0;
+	background: rgb(27,218,254);
+	background: -webkit-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: -o-linear-gradient(right, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	background: linear-gradient(to left, rgba(27,218,254,1) 25%, rgba(79,172,254,1) 100%);
+	transition: width 0.3s ease;
+}
+.navbar-nav .nav-link:hover:before {
+	width: 50%;
+	transition: width 0.3s ease;
+}
+
+a.btn{
+
+	border: 1px solid;
+}
+
+a.btn:hover{
+    color: rgba(79,172,254,1);
+    border: 1px solid rgba(79,172,254,1);
+    background: #fff;
+}
+
+/**Transition***/
+
+
+.hero-content {
+	transform: translateY(700px);
+	transition: all 0.5s ease;
+}
+
+.hero-ani .hero-content {
+	transform: translateY(0px);
+}
+
+.feature-content {
+    transform: translateX(-500px);
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.animate .feature-content {
+	transform: translateX(0px);
+}
+
+.card.first,
+.card.second,
+.card.third {
+	transform: translateY(500px);
+	transition: all .5s ease;
+}
+.card.first {
+
+}
+.card.second {
+	transition-delay: 0.2s;
+}
+.card.third {
+	transition-delay: 0.4s;
+}
+.animate .card.first,
+.animate .card.second,
+.animate .card.third {
+	transform: translateY(0px);
+}
+
+.about-content {
+	transform: translateX(600px);
+	transition: all 0.8s ease;
+	transition-delay: 0.4s;
+}
+
+.about-img {
+	transform: translateX(-700px);
+	transition: all 0.8s ease;
+
+}
+
+.animate2 .about-img, .animate2 .about-content {
+	transform: translateX(0px);
+}
+
+.courses .card,
+.student-blog .card{
+	transform: translateX(1500px);
+	transition: all 0.5s ease;
+}
+
+
+.animate3 .courses .card,
+.animate4 .student-blog .card {
+	transform: translateX(0px);
+}
+
+.animate3 .courses .card1,
+.animate4 .student-blog .card1 {
+	transition-delay: 0.2s;
+}
+
+.animate3 .courses .card2,
+.animate4 .student-blog .card2{
+	transition-delay: 0.4s;
+}
+.animate3 .courses .card3,
+.animate4 .student-blog .card3 {
+	transition-delay: 0.6s;
+}
+
+@media (max-width: 375px) {
+	html {
+		font-size: 12px;
+	}
+	.overlay,
+	.navbar-collapse-custom {
+		top: 82px;
+	}
+}
